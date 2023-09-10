@@ -1,0 +1,107 @@
+/* ########### customer report section css  ######## */
+.customer-reprot-section {
+  background-image: linear-gradient(140deg, rgb(197, 209, 225), rgb(1, 44, 92));
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 12rem 12rem;
+  gap: 1rem;
+  padding: 3rem;
+}
+
+.ct-r-box {
+  background-color: #002b58;
+}
+
+.ct-r-box-first {
+  background-color: #002b58;
+  grid-column: 1/3;
+  display: flex;
+}
+
+.cust-txt-box {
+  color: white;
+}
+.cust-txt-box .ct-first-box {
+  display: flex;
+  width: 26rem;
+}
+.cust-txt-box .ct-first-box,
+.ct-second-box {
+  margin: 2rem 0.5rem;
+}
+.ct-icon {
+  color: white;
+}
+
+.v-line {
+  width: 4px;
+  height: 65px;
+  background-color: yellow;
+  margin: 2rem 1rem;
+}
+
+.cust-pr-box {
+  display: flex;
+  align-items: center;
+  padding: 0 2.5rem;
+  text-align: center;
+}
+.ct-second-box p {
+  font-size: 1rem;
+}
+.cust-img-box img {
+  height: 80%;
+  width: 100px;
+  margin: 20px;
+}
+.cust-pr-box h3 {
+  font-size: 2.5rem;
+  color: rgb(182, 182, 0);
+}
+.cust-pr-box p {
+  font-size: 0.9rem;
+  color: white;
+  padding: 0.5rem 0;
+}
+
+.cust-pr-box-first,
+.cust-pr-box-second,
+.cust-pr-box-third {
+  margin: 0 1rem;
+}
+
+.ct-r-box-third,
+.ct-r-box-second {
+  display: flex;
+}
+
+.ct-r-box-second .v-line {
+  width: 3px;
+  height: 25px;
+}
+
+.ct-r-box-third,
+.ct-r-box-second {
+  padding: 0rem 1rem;
+}
+
+.ct-r-box-third .v-line {
+  width: 3px;
+  height: 25px;
+}
+
+.ct-r-box-third .cust-txt-box .ct-first-box {
+  width: 31rem;
+}
+
+.ct-r-box-third .cust-txt-box .ct-second-box {
+  margin: 0rem 0.5rem;
+}
+
+.product-bottom-title {
+  text-align: center;
+}
+.product-bottom-title h3 {
+  padding: 1rem 0;
+  font-size: 1.9rem;
+}

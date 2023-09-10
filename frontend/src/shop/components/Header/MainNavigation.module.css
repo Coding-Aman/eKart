@@ -1,0 +1,9 @@
+/*Bottom Header*/
+.navigation {
+  border-bottom: 2px solid #d7d6d6;
+}
+
+.bottom-nav {
+  display: flex;
+  margin-left: 0.4rem;
+}

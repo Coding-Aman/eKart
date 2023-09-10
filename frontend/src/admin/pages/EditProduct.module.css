@@ -1,0 +1,27 @@
+.product-form {
+  width: 25rem;
+  display: block;
+  margin: 0 auto;
+}
+
+.form-control {
+  margin: 2rem 0;
+}
+
+.form-control label,
+.form-control input,
+.form-control textarea {
+  width: 100%;
+  font-size: 1.1rem;
+}
+
+.form-control input,
+.form-control textarea {
+  border: 1px solid black;
+  outline: 0;
+  padding: 5px;
+}
+
+.form-control input {
+  height: 1.7rem;
+}

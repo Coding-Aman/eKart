@@ -1,0 +1,26 @@
+.latest-products-container {
+  padding: 0.5rem 0;
+}
+.product-title {
+  font-size: 1.6rem;
+  letter-spacing: 0.2rem;
+  padding-left: 4rem;
+  margin: 2rem 0;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  color: rgb(71, 70, 70);
+}
+
+.product-container {
+  width: 80%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  /* background-color: red; */
+  padding: 0.2rem 0;
+}
+.product-container-parent {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}

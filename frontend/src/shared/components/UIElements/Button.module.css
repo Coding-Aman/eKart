@@ -1,0 +1,29 @@
+.btn {
+  display: inline-block;
+  padding: 0.25rem 1rem;
+  text-decoration: none;
+  border: 1px solid rgb(111, 111, 232);
+  color: rgb(111, 111, 232);
+  background: white;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: rgb(111, 111, 232);
+  color: white;
+}
+
+.btn a {
+  background-color: white;
+  color: rgb(111, 111, 232);
+  text-decoration: none;
+}
+
+.btn:hover a,
+.btn:active a {
+  background-color: rgb(111, 111, 232);
+  color: white;
+}

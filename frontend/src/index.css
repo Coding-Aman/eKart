@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Libre+Baskerville:ital@1&family=Montserrat:wght@400;700&family=Nunito+Sans:opsz,wght@6..12,300&family=Open+Sans:ital@1&family=Poppins:wght@200;500&family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --light-gray: #636363;
+  --secondry-color: #0672cb;
+}
+
+.item-non-bullet {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}

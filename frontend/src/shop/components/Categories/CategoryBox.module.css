@@ -1,0 +1,38 @@
+.category-box {
+  width: 10rem;
+}
+
+.cat-item {
+  width: 10rem;
+  padding: 1.4rem 0;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.cat-item .cat-label {
+  margin-top: 1rem;
+}
+
+.cat-item .cat-links {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  transition: 0.1s;
+}
+.cat-item .cat-links a {
+  margin: 0.5rem 0;
+  text-decoration: none;
+  color: #0063b8;
+}
+
+.category-box:hover .cat-item {
+  transform: translatey(-55px);
+}
+
+.cat-item:hover .cat-links {
+  margin-top: 0;
+}
+
+.category-box:hover p {
+  margin-top: 0;
+}

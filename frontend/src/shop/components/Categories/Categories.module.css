@@ -1,0 +1,7 @@
+.category-container {
+  display: flex;
+  justify-content: center;
+  height: 7.5rem;
+  overflow: hidden;
+  background-color: #f9f9f9;
+}

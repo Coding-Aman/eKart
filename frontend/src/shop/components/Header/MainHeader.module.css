@@ -1,0 +1,127 @@
+.top-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.top-header-left-menu {
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+}
+
+.top-search-bar {
+  display: flex;
+
+  border: 1px solid var(--light-gray);
+  padding: 0 0.3rem;
+  margin: 0 2.8rem;
+  height: 2rem;
+}
+
+.top-search-bar input[type] {
+  width: 30rem;
+  padding: 0.4rem;
+  border: none;
+  outline: none;
+}
+
+@media (max-width: 1335px) {
+  .top-search-bar input[type] {
+    width: 20rem;
+  }
+}
+
+.top-search-bar img {
+  padding: 0.4rem 0.3rem;
+}
+
+.top-header-right-menu {
+  margin-left: 5rem;
+}
+
+@media (max-width: 1335px) {
+  .top-header-right-menu {
+    margin-left: 1rem;
+  }
+}
+
+.right-menu-item {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.top-header-item a {
+  padding: 1rem 0.2rem;
+  display: flex;
+  align-items: center;
+  color: var(--light-gray);
+}
+
+.top-header-item a div img {
+  margin: 0 0.3rem;
+}
+
+.sign-in-item {
+  position: relative;
+}
+
+.sign-in-dropdown {
+  width: 18rem;
+  height: auto;
+  display: none;
+  position: absolute;
+  border: 1px solid rgb(220, 219, 219);
+  right: 0;
+  padding: 1rem;
+  color: var(--light-gray);
+  z-index: 100;
+  background-color: white;
+}
+
+.sign-in-dropdown ul {
+  font-size: 0.87rem;
+  padding: 0.7rem 0.71rem;
+}
+
+.sign-in-dropdown ul li {
+  margin-top: 0.2rem;
+}
+
+.sign-in-dropdown p {
+  font-size: 0.9rem;
+  margin-top: 2.4rem;
+}
+
+.sign-in-item:hover {
+  background-color: #e4e4e4;
+}
+
+.sign-in-item:hover .sign-in-dropdown {
+  display: block;
+}
+
+.top-arrow {
+  transition: 0.3s ease;
+}
+
+.top-header-item:hover .top-arrow {
+  transform: rotate(-180deg);
+}
+
+.dropdown-btn {
+  text-decoration: none;
+  border: 1px solid var(--secondry-color);
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.6rem 0;
+  border-radius: 2px;
+  color: var(--secondry-color) !important;
+}
+
+.signin-btn {
+  background-color: var(--secondry-color);
+  color: white !important;
+}
