@@ -1,0 +1,9 @@
+{
+  "env": {
+    "DB_USERNAME": "root",
+    "DB_PASSWORD": "root",
+    "DB_NAME": "eKart",
+    "JWT_KEY": "It is a secret key",
+    "PORT": 4000
+  }
+}
